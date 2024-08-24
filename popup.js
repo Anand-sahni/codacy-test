@@ -31,8 +31,16 @@ btn.addEventListener('click', async () => {
 
 let num1 = 10;
 let num2 = 10;
-let sum = num1 ++ num2;
+let sum = num1 + num2;
 console.log("Sum :", sum);
+
+function printNumbersInfinitely() {
+    let i = 1;
+    while (true) {
+      console.log(i);
+      i++;
+    }
+  }
 
 async function pickColor() {
     try {
